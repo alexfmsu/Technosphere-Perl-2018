@@ -4,7 +4,7 @@
 perl -F"/\s/" -E '%h = map{$_, 1} split //, $F[1]; say scalar keys %h' ~/.ssh/id_rsa.pub
 
 # - вывести уникальные символы:
-perl -F/"\s/" -E '%h = map{$_, 1} split //, $F[1]; say sort keys %h' ~/.ssh/id_rsa.pub
+perl -F"/\s/" -E '%h = map{$_, 1} split //, $F[1]; say sort keys %h' ~/.ssh/id_rsa.pub
 
 # - вывести уникальные символы и количество раз, сколько встретилось:
 perl -MDDP -F"/\s/" -E '$h{$_}++ for split //, $F[1]; p %h' ~/.ssh/id_rsa.pub
