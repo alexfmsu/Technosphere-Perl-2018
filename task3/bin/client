@@ -1,0 +1,36 @@
+#!/usr/bin/env perl
+
+use 5.016;
+use strict;
+use warnings;
+
+use Getopt::Long;
+use Term::ReadLine;
+use Path::Resolve;
+use Pod::Usage;
+
+use lib 'lib';
+
+use Client::client;
+
+my ($help, $verbose);
+my ($host, $port);
+
+GetOptions(
+    "help"     => \$help,
+    "verbose+" => \$verbose,
+    "host=s"   => \$host,
+    "port=i"   => \$port,
+);
+
+my $client = Client::client->new(
+    remote_pwd => $ARGV[0],
+    help       => $help,
+    verbose    => $verbose,
+    host       => $host,
+    port       => $port
+);
+
+while (defined($_ = $client->{term}->readline($client->{prompt}))) {
+    $client->handle_input($_);
+}

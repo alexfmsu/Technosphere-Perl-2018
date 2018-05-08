@@ -1,0 +1,96 @@
+#!/usr/bin/env perl
+
+use 5.016;
+use strict;
+use warnings;
+
+use Getopt::Long;
+use Term::ReadLine;
+use JSON::XS;
+use IO::Socket;
+
+use lib 'lib';
+
+use Client::Client;
+
+no warnings 'experimental';
+
+my ($help, $verbose) = (undef, 0);
+my ($host, $port);
+
+GetOptions(
+    "verbose+" => \$verbose,
+    "help" => \$help
+);
+
+our $help_message = <<'HELP_MESSAGE';
+./client host:port
+HELP_MESSAGE
+
+if ($help || @ARGV == 0) {
+    say $help_message;
+    exit(0);
+}
+
+($host, $port) = split /\s*:\s*/, $ARGV[0];
+$port ||= 9000;
+
+if (!defined($host)) {
+    say $help_message;
+    exit(0);
+}
+
+my $client = Client::Client->new(host=>$host, port=>$port);
+# my $socket = IO::Socket::INET->new(
+#     PeerAddr => $host,
+#     PeerPort => $port,
+#     Proto    => "tcp",
+#     Type     => SOCK_STREAM,
+# ) or die "Can't connect to $host:$port $/";
+
+$| = 1;
+
+my $term = Term::ReadLine->new('shell');
+$term->ornaments(0);
+
+my $prompt = `whoami`;
+chomp($prompt);
+$prompt = '[' . $prompt . ' ~]$ ';
+
+my $socket = $client->{socket};
+use DDP;
+
+# while (defined($_ = $term->readline($prompt))) {
+#     next if /^\s*$/;
+
+#     s/^\s+//;
+#     s/\s+$//;
+
+#     my @exit = qw(\\q exit quit);
+
+#     if ($_ ~~ @exit) {
+#         exit(0);
+#     }
+
+#     my $cmd = encode_json({ cmd => $_, verbose => $verbose });
+
+#     p $cmd;
+#     print $socket $cmd . "\n";
+
+#     my $answer = <$socket>;
+#     p $answer;
+#     chomp($answer);
+
+#     $answer = decode_json($answer);
+
+#     if ($answer->{err_code}) {
+#         say $answer->{err_msg};
+#         exit(0);
+#     }
+
+#     say $answer->{result};
+# }
+
+while (defined($_ = $term->readline($prompt))) {
+    $client->handle_input($_);
+}

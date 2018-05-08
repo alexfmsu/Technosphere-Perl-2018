@@ -1,0 +1,44 @@
+#!/usr/bin/env perl
+
+use 5.016;
+use strict;
+use warnings;
+
+use utf8;
+use DDP;
+
+use Getopt::Long;
+
+use POSIX qw(:sys_wait_h);
+
+use lib 'lib';
+
+use Server::Client;
+
+my ($host, $port, $max_connections, $root_dir);
+
+use Server::Server;
+
+GetOptions(
+    "port=i" => \$port,
+    "max_connections|m=i" => \$max_connections,
+);
+
+our $help_message = <<'HELP_MESSAGE';
+./server -p [port] /path/to/somewhere
+HELP_MESSAGE
+
+if (@ARGV != 1) {
+    say $help_message;
+    exit(0);
+}
+
+$root_dir = $ARGV[0];
+
+my $server = Server::Server->new(
+    port=>$port,
+    max_connections=>$max_connections,
+    root_dir=>$root_dir
+);
+
+$server->process();
