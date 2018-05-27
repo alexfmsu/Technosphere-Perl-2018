@@ -1,0 +1,34 @@
+bin
+	server
+		? 1. #!/usr/bin/env perl
+		? 3. use 5.016;
+		
+	client
+		? 1. #!/usr/bin/env perl
+
+lib
+	Server
+
+	Client
+		Config
+			Alias.pm
+
+			History.pm
+
+		Autocomplete.pm
+
+		Client.pm
+
+		Command.pm
+
+		Config.pm
+
+t
+	Tester.pm
+
+	client.t
+
+
+
+-----------------------------------------------------------------------------------------------------------------------
+need log

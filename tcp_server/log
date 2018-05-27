@@ -1,0 +1,6985 @@
+command: ls
+answer: bi2
+bin
+file1
+lib
+log
+t
+Tree.pm
+
+----------------------------------------------------------------------------------------------------
+command: rm
+answer: 1
+client
+log
+server
+
+----------------------------------------------------------------------------------------------------
+command: rm
+answer: 1
+client
+log
+server
+
+----------------------------------------------------------------------------------------------------
+command: rm
+answer: 1
+client
+log
+server
+
+----------------------------------------------------------------------------------------------------
+command: rm
+answer: bin/1
+HASH(0x55fbf7378198)
+bin/client
+bin/log
+bin/server
+
+----------------------------------------------------------------------------------------------------
+command: rm
+answer: 
+----------------------------------------------------------------------------------------------------
+command: rm
+answer: 
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: bi2
+bin
+file1
+lib
+log
+t
+Tree.pm
+
+----------------------------------------------------------------------------------------------------
+command: rm
+answer: 
+----------------------------------------------------------------------------------------------------
+command: rm
+answer: rm bin/bbb/12
+rm bin/bbb
+
+----------------------------------------------------------------------------------------------------
+command: rm
+answer: 
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: .bbb2
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: file1
+log
+Tree.pm
+
+bi2:
+
+bin:
+1
+client
+log
+server
+lib:
+Client
+Server
+t:
+client.tt
+ls.t
+Tester.pm
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: file1
+log
+Tree.pm
+
+bi2:
+
+bin:
+1
+client
+log
+server
+lib:
+Client
+Server
+t:
+client.tt
+ls.t
+Tester.pm
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: 
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: file1
+log
+Tree.pm
+
+bi2:
+
+bin:
+1
+client
+log
+server
+lib:
+Client
+Server
+t:
+client.tt
+ls.t
+Tester.pm
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: file1
+log
+Tree.pm
+
+bi2:
+
+bin:
+1
+client
+log
+server
+lib:
+Client
+Server
+t:
+Tester.pm
+client.tt
+ls.t
+ls_bin.t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: file1
+log
+Tree.pm
+
+bi2:
+
+bin:
+1
+client
+log
+server
+lib:
+Client
+Server
+t:
+Tester.pm
+client.tt
+ls.t
+ls_bin.t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: Tree.pm
+bi2
+bin
+file1
+lib
+log
+t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: .
+..
+.b3
+.bbb2
+Tree.pm
+bi2
+bin
+file1
+lib
+log
+t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: file1
+log
+Tree.pm
+
+bi2:
+
+bin:
+1
+client
+log
+server
+lib:
+Client
+Server
+t:
+Tester.pm
+client.tt
+ls.t
+ls_bin.t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: file1
+log
+Tree.pm
+
+bi2:
+
+bin:
+1
+client
+log
+server
+lib:
+Client
+Server
+t:
+Tester.pm
+client.tt
+ls.t
+ls_bin.t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: Tree.pm
+bi2
+bin
+file1
+lib
+log
+t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: .
+..
+.b3
+.bbb2
+Tree.pm
+bi2
+bin
+file1
+lib
+log
+t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: file1
+log
+Tree.pm
+
+bi2:
+
+bin:
+1
+client
+log
+server
+lib:
+Client
+Server
+t:
+Tester.pm
+client.tt
+ls.t
+ls_bin.t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: file1
+log
+Tree.pm
+
+bi2:
+
+
+bin:
+1
+client
+log
+server
+
+lib:
+Client
+Server
+
+t:
+Tester.pm
+client.tt
+ls.t
+ls_bin.t
+
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: file1
+log
+Tree.pm
+
+bi2:
+
+bin:
+1
+client
+log
+server
+lib:
+Client
+Server
+t:
+Tester.pm
+client.tt
+ls.t
+ls_bin.t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: file1
+log
+Tree.pm
+
+bi2:
+
+bin:
+1
+client
+log
+server
+lib:
+Client
+Server
+t:
+Tester.pm
+client.tt
+ls.t
+ls_bin.t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: file1
+log
+Tree.pm
+
+bi2:
+
+bin:
+1
+client
+log
+server
+lib:
+Client
+Server
+t:
+Tester.pm
+client.tt
+ls.t
+ls_bin.t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: Tree.pm
+bi2
+bin
+file1
+lib
+log
+t
+
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: file1
+log
+Tree.pm
+
+bi2:
+
+
+bin:
+1
+client
+log
+server
+
+lib:
+Client
+Server
+
+t:
+Tester.pm
+client.tt
+ls.t
+ls_bin.t
+
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: file1
+log
+Tree.pm
+
+bi2:
+
+
+bin:
+1
+client
+log
+server
+
+lib:
+Client
+Server
+
+t:
+Tester.pm
+client.tt
+ls.t
+ls_bin.t
+
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: file1
+log
+Tree.pm
+
+bi2:
+
+
+bin:
+1
+client
+log
+server
+
+lib:
+Client
+Server
+
+t:
+Tester.pm
+client.tt
+ls.t
+ls_bin.t
+
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: file1
+log
+Tree.pm
+
+bi2:
+bin:
+lib:
+t:
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: file1
+log
+Tree.pm
+
+bi2:
+
+
+bin:
+1
+client
+log
+server
+
+lib:
+Client
+Server
+
+t:
+Tester.pm
+client.tt
+ls.t
+ls_bin.t
+
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: file1
+log
+Tree.pm
+
+bi2:
+
+bin:
+1
+client
+log
+server
+lib:
+Client
+Server
+t:
+Tester.pm
+client.tt
+ls.t
+ls_bin.t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: file1
+log
+Tree.pm
+
+bi2:
+bin:1
+client
+log
+server
+lib:Client
+Server
+t:Tester.pm
+client.tt
+ls.t
+ls_bin.t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: file1
+log
+Tree.pm
+
+bi2:
+
+bin:
+1
+client
+log
+server
+lib:
+Client
+Server
+t:
+Tester.pm
+client.tt
+ls.t
+ls_bin.t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: file1
+log
+Tree.pm
+
+bi2:
+
+
+bin:
+1
+client
+log
+server
+
+lib:
+Client
+Server
+
+t:
+Tester.pm
+client.tt
+ls.t
+ls_bin.t
+
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: file1
+log
+Tree.pm
+
+bi2:
+
+bin:
+1
+client
+log
+server
+lib:
+Client
+Server
+t:
+Tester.pm
+client.tt
+ls.t
+ls_bin.t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: file1
+log
+Tree.pm
+
+bi2:
+55
+
+bin:
+55
+1
+client
+log
+server
+lib:
+55
+Client
+Server
+t:
+55
+Tester.pm
+client.tt
+ls.t
+ls_bin.t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: file1
+log
+Tree.pm
+
+bi2:
+
+bin:
+55
+1
+client
+log
+server
+lib:
+55
+Client
+Server
+t:
+55
+Tester.pm
+client.tt
+ls.t
+ls_bin.t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: file1
+log
+Tree.pm
+
+bi2:
+
+bin:
+55
+1
+client
+log
+server
+
+lib:
+55
+Client
+Server
+
+t:
+55
+Tester.pm
+client.tt
+ls.t
+ls_bin.t
+
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: file1
+log
+Tree.pm
+
+bi2:
+
+bin:
+1
+client
+log
+server
+
+lib:
+Client
+Server
+
+t:
+Tester.pm
+client.tt
+ls.t
+ls_bin.t
+
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: file1
+log
+Tree.pm
+
+bi2:
+bin:
+1
+client
+log
+server
+lib:
+Client
+Server
+t:
+Tester.pm
+client.tt
+ls.t
+ls_bin.t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: file1
+log
+Tree.pm
+
+bi2:
+
+bin:
+1
+client
+log
+server
+
+lib:
+Client
+Server
+
+t:
+Tester.pm
+client.tt
+ls.t
+ls_bin.t
+
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: file1
+log
+Tree.pm
+
+bi2:
+bin:
+1
+client
+log
+server
+
+lib:
+Client
+Server
+
+t:
+Tester.pm
+client.tt
+ls.t
+ls_bin.t
+
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: file1
+log
+Tree.pm
+
+bi2:
+bin:
+1
+client
+log
+server
+lib:
+Client
+Server
+t:
+Tester.pm
+client.tt
+ls.t
+ls_bin.t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: file1
+log
+Tree.pm
+
+bi2:
+
+bin:
+1
+client
+log
+server
+
+lib:
+Client
+Server
+
+t:
+Tester.pm
+client.tt
+ls.t
+ls_bin.t
+
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: file1
+log
+Tree.pm
+
+bi2:
+
+bin:
+1
+client
+log
+server
+
+lib:
+Client
+Server
+
+t:
+Tester.pm
+client.tt
+ls.t
+ls_bin.t
+
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: file1
+log
+Tree.pm
+
+bi2:
+bin:
+1
+client
+log
+server
+lib:
+Client
+Server
+t:
+Tester.pm
+client.tt
+ls.t
+ls_bin.t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: file1
+log
+Tree.pm
+
+bi2:
+bin:
+1
+client
+log
+serverlib:
+Client
+Servert:
+Tester.pm
+client.tt
+ls.t
+ls_bin.t
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: file1
+log
+Tree.pm
+
+bi2:
+
+bin:
+1
+client
+log
+server
+
+lib:
+Client
+Server
+
+t:
+Tester.pm
+client.tt
+ls.t
+ls_bin.t
+
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: file1
+log
+Tree.pm
+
+bi2:
+
+bin:
+1
+client
+log
+server
+
+lib:
+Client
+Server
+
+t:
+Tester.pm
+client.tt
+ls.t
+ls_bin.t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: file1
+log
+Tree.pm
+
+bi2:
+
+bin:
+1
+client
+log
+server
+
+lib:
+Client
+Server
+
+t:
+Tester.pm
+client.tt
+ls.t
+ls_bin.t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: file1
+log
+Tree.pm
+
+bi2:
+
+bin:
+1
+client
+log
+server
+
+lib:
+Client
+Server
+
+t:
+Tester.pm
+client.tt
+ls.t
+ls_bin.t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: file1
+log
+Tree.pm
+
+bi2:
+
+bin:
+1
+client
+log
+server
+
+lib:
+Client
+Server
+
+t:
+Tester.pm
+client.tt
+ls.t
+ls_bin.t
+
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: file1
+log
+Tree.pm
+
+bi2:
+
+bin:
+1
+client
+log
+server
+
+lib:
+Client
+Server
+
+t:
+Tester.pm
+client.tt
+ls.t
+ls_bin.t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: file1
+log
+Tree.pm
+
+bi2:
+
+bin:
+1
+client
+log
+server
+
+lib:
+Client
+Server
+
+t:
+Tester.pm
+client.tt
+ls.t
+ls_bin.t
+
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: file1
+log
+Tree.pm
+
+bi2:
+
+bin:
+1
+client
+log
+server
+
+lib:
+Client
+Server
+
+t:
+Tester.pm
+client.tt
+ls.t
+ls_bin.t
+
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: file1
+log
+Tree.pm
+
+bi2:
+
+bin:
+1
+client
+log
+server
+
+lib:
+Client
+Server
+
+t:
+Tester.pm
+client.tt
+ls.t
+ls_bin.t
+
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: file1
+log
+Tree.pm
+
+bi2:
+
+bin:
+1
+client
+log
+server
+
+lib:
+Client
+Server
+
+t:
+Tester.pm
+client.tt
+ls.t
+ls_bin.t
+
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: file1
+log
+Tree.pm
+
+bi2:
+
+bin:
+1
+client
+log
+server
+
+lib:
+Client
+Server
+
+t:
+Tester.pm
+client.tt
+ls.t
+ls_bin.t
+
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: file1
+log
+Tree.pm
+
+bi2:
+
+bin:
+1
+client
+log
+server
+
+lib:
+Client
+Server
+
+t:
+Tester.pm
+client.tt
+ls.t
+ls_bin.t
+
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: file1
+log
+Tree.pm
+
+bi2:
+
+bin:
+1
+client
+log
+server
+
+lib:
+Client
+Server
+
+t:
+Tester.pm
+client.tt
+ls.t
+ls_bin.t
+
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: file1
+log
+Tree.pm
+
+bi2:
+
+bin:
+1
+client
+log
+server
+
+lib:
+Client
+Server
+
+t:
+Tester.pm
+client.tt
+ls.t
+ls_bin.t
+
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: file1
+log
+Tree.pm
+
+bi2:
+
+bin:
+1
+client
+log
+server
+
+lib:
+Client
+Server
+
+t:
+Tester.pm
+client.tt
+ls.t
+ls_bin.t
+
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: file1
+log
+Tree.pm
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: file1
+log
+Tree.pm
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: file1
+log
+Tree.pm
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: file1
+log
+Tree.pm
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: file1
+log
+Tree.pm
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: file1
+log
+Tree.pm
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: file1
+log
+Tree.pm
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: file1
+log
+Tree.pm
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: file1
+log
+Tree.pm
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: file1
+log
+Tree.pm
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: file1
+log
+Tree.pm
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: file1
+log
+Tree.pm
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: bi2:
+
+bin:
+1
+client
+log
+server
+
+lib:
+Client
+Server
+
+t:
+Tester.pm
+client.tt
+ls.t
+ls_bin.t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: file1
+log
+Tree.pmbi2:
+
+bin:
+1
+client
+log
+server
+
+lib:
+Client
+Server
+
+t:
+Tester.pm
+client.tt
+ls.t
+ls_bin.t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: file1
+log
+Tree.pmbi2:
+
+bin:
+1
+client
+log
+server
+
+lib:
+Client
+Server
+
+t:
+Tester.pm
+client.tt
+ls.t
+ls_bin.t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: file1
+log
+Tree.pm
+
+
+bi2:
+
+bin:
+1
+client
+log
+server
+
+lib:
+Client
+Server
+
+t:
+Tester.pm
+client.tt
+ls.t
+ls_bin.t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: file1
+log
+Tree.pm
+bi2:
+
+bin:
+1
+client
+log
+server
+
+lib:
+Client
+Server
+
+t:
+Tester.pm
+client.tt
+ls.t
+ls_bin.t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: file1
+log
+Tree.pm
+
+bi2:
+
+bin:
+1
+client
+log
+server
+
+lib:
+Client
+Server
+
+t:
+Tester.pm
+client.tt
+ls.t
+ls_bin.t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: file1
+log
+Tree.pm
+
+bi2:
+
+bin:
+1
+client
+log
+server
+
+lib:
+Client
+Server
+
+t:
+Tester.pm
+client.tt
+ls.t
+ls_bin.t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: file1
+log
+Tree.pm
+
+bi2:
+
+bin:
+1
+client
+log
+server
+
+lib:
+Client
+Server
+
+t:
+Tester.pm
+client.tt
+ls.t
+ls_bin.t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: file1
+log
+Tree.pm
+
+bi2:
+
+bin:
+1
+client
+log
+server
+
+lib:
+Client
+Server
+
+t:
+client.tt
+ls.t
+ls_bin.t
+Tester.pm
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: file1
+log
+Tree.pm
+
+bi2:
+
+bin:
+1
+client
+log
+server
+
+lib:
+Client
+Server
+
+t:
+Tester.pm
+client.tt
+ls.t
+ls_bin.t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: file1
+log
+Tree.pm
+
+bi2:
+
+bin:
+1
+client
+log
+server
+
+lib:
+Client
+Server
+
+t:
+client.tt
+ls.t
+ls_bin.t
+Tester.pm
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: file1
+log
+Tree.pm
+
+bi2:
+
+bin:
+1
+client
+log
+server
+
+lib:
+Client
+Server
+
+t:
+client.tt
+ls.t
+ls_bin.t
+Tester.pm
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: file1
+log
+Tree.pm
+
+bi2:
+
+bin:
+1
+client
+log
+server
+
+lib:
+Client
+Server
+
+t:
+client.tt
+ls.t
+ls_bin.t
+Tester.pm
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: file1
+log
+Tree.pm
+
+bi2:
+
+bin:
+1
+client
+log
+server
+
+lib:
+Client
+Server
+
+t:
+client.tt
+ls.t
+ls_bin.t
+Tester.pm
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: file1
+log
+Tree.pm
+
+bi2:
+
+bin:
+1
+client
+log
+server
+
+lib:
+Client
+Server
+
+t:
+client.tt
+ls.t
+ls_bin.t
+Tester.pm
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: file1
+log
+Tree.pm
+
+bi2:
+
+bin:
+1
+client
+log
+server
+
+lib:
+Client
+Server
+
+t:
+client.tt
+ls.t
+ls_bin.t
+Tester.pm
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: file1
+log
+Tree.pm
+
+bi2:
+
+bin:
+1
+client
+log
+server
+
+lib:
+Client
+Server
+
+t:
+client.tt
+ls.t
+ls_bin.t
+Tester.pm
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: file1
+log
+Tree.pm
+
+bi2:
+
+bin:
+1
+client
+log
+server
+
+lib:
+Client
+Server
+
+t:
+client.tt
+ls.t
+ls_bin.t
+Tester.pm
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: file1
+log
+Tree.pm
+
+bi2:
+
+bin:
+1
+client
+log
+server
+
+lib:
+Client
+Server
+
+t:
+Tester.pm
+client.tt
+ls.t
+ls_bin.t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: file1
+log
+Tree.pm
+
+bi2:
+
+bin:
+1
+client
+log
+server
+
+lib:
+Client
+Server
+
+t:
+Tester.pm
+client.tt
+ls.t
+ls_bin.t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: file1
+log
+Tree.pm
+
+bi2:
+
+bin:
+1
+client
+log
+server
+
+lib:
+Client
+Server
+
+t:
+Tester.pm
+client.tt
+ls.t
+ls_bin.t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: Tree.pm
+file1
+log
+
+bi2:
+
+bin:
+1
+client
+log
+server
+
+lib:
+Client
+Server
+
+t:
+Tester.pm
+client.tt
+ls.t
+ls_bin.t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: Tree.pm
+file1
+log
+
+bi2:
+
+bin:
+1
+client
+log
+server
+
+lib:
+Client
+Server
+
+t:
+Tester.pm
+client.tt
+ls.t
+ls_bin.t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: Tree.pm
+file1
+log
+
+bi2:
+
+bin:
+1
+client
+log
+server
+
+lib:
+Client
+Server
+
+t:
+Tester.pm
+client.tt
+ls.t
+ls_bin.t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: Tree.pm
+file1
+log
+
+bi2:
+
+bin:
+1
+client
+log
+server
+lib:
+Client
+Server
+t:
+Tester.pm
+client.tt
+ls.t
+ls_bin.t
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: Tree.pm
+file1
+log
+
+bi2:
+
+bin:
+1
+client
+log
+server
+lib:
+Client
+Server
+t:
+Tester.pm
+client.tt
+ls.t
+ls_bin.t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: Tree.pm
+file1
+log
+
+bi2:
+
+
+bin:
+1
+client
+log
+server
+
+lib:
+Client
+Server
+
+t:
+Tester.pm
+client.tt
+ls.t
+ls_bin.t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: Tree.pm
+file1
+log
+
+bi2:
+
+bin:
+1
+client
+log
+server
+
+lib:
+Client
+Server
+
+t:
+Tester.pm
+client.tt
+ls.t
+ls_bin.t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: Tree.pm
+file1
+log
+
+bi2:
+
+bin:
+1
+client
+log
+server
+
+lib:
+Client
+Server
+
+t:
+Tester.pm
+client.tt
+ls.t
+ls_bin.t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: Tree.pm
+file1
+log
+
+bi2:
+
+bin:
+1
+client
+log
+server
+
+lib:
+Client
+Server
+
+t:
+Tester.pm
+client.tt
+ls.t
+ls_bin.t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: Tree.pm
+bi2
+bin
+file1
+lib
+log
+t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: .
+..
+.b3
+.bbb2
+Tree.pm
+bi2
+bin
+file1
+lib
+log
+t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: bi2:
+
+bin:
+1
+client
+log
+server
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: bi2:
+.
+..
+
+bin:
+.
+..
+.b4
+.sss
+1
+client
+log
+server
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: Tree.pm
+file1
+log
+
+bi2:
+
+bin:
+1
+client
+log
+server
+
+lib:
+Client
+Server
+
+t:
+Tester.pm
+client.tt
+ls.t
+ls_bin.t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: Tree.pm
+file1
+log
+
+bi2:
+
+bin:
+1
+client
+log
+server
+
+lib:
+Client
+Server
+
+t:
+Tester.pm
+client.tt
+ls.t
+ls_bin.t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: Tree.pm
+bi2
+bin
+file1
+lib
+log
+t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: .
+..
+.b3
+.bbb2
+Tree.pm
+bi2
+bin
+file1
+lib
+log
+t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: bi2:
+
+bin:
+1
+client
+log
+server
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: bi2:
+.
+..
+
+bin:
+.
+..
+.b4
+.sss
+1
+client
+log
+server
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: Tree.pm
+file1
+log
+
+bi2:
+
+bin:
+1
+client
+log
+server
+
+lib:
+Client
+Server
+
+t:
+Tester.pm
+client.tt
+ls.t
+ls_bin.t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: Tree.pm
+file1
+log
+
+bi2:
+
+bin:
+1
+client
+log
+server
+
+lib:
+Client
+Server
+
+t:
+Tester.pm
+client.tt
+ls.t
+ls_bin.t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: Tree.pm
+bi2
+bin
+file1
+lib
+log
+t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: .
+..
+.b3
+.bbb2
+Tree.pm
+bi2
+bin
+file1
+lib
+log
+t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: bi2:
+
+bin:
+1
+client
+log
+server
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: bi2:
+.
+..
+
+bin:
+.
+..
+.b4
+.sss
+1
+client
+log
+server
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: Tree.pm
+file1
+log
+
+bi2:
+
+bin:
+1
+client
+log
+server
+
+lib:
+Client
+Server
+
+t:
+Tester.pm
+client.tt
+ls.t
+ls_bin.t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: Tree.pm
+file1
+log
+
+bi2:
+
+bin:
+1
+client
+log
+server
+
+lib:
+Client
+Server
+
+t:
+Tester.pm
+client.tt
+ls.t
+ls_bin.t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: Tree.pm
+file1
+log
+
+bi2:
+
+bin:
+1
+client
+log
+server
+
+lib:
+Client
+Server
+
+t:
+Tester.pm
+client.tt
+ls.t
+ls_bin.t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: Tree.pm
+file1
+log
+
+bi2:
+
+bin:
+1
+client
+log
+server
+
+lib:
+Client
+Server
+
+t:
+Tester.pm
+client.tt
+ls.t
+ls_bin.t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: Tree.pm
+file1
+log
+
+bi2:
+
+bin:
+1
+client
+log
+server
+
+lib:
+Client
+Server
+
+t:
+Tester.pm
+client.tt
+ls.t
+ls_bin.t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: Tree.pm
+file1
+log
+
+bi2:
+
+bin:
+1
+client
+log
+server
+
+lib:
+Client
+Server
+
+t:
+Tester.pm
+client.tt
+ls.t
+ls_bin.t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: Tree.pm
+file1
+log
+
+bi2:
+
+bin:
+1
+client
+log
+server
+
+lib:
+Client
+Server
+
+t:
+Tester.pm
+client.tt
+ls.t
+ls_bin.t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: Tree.pm
+file1
+log
+
+bi2:
+
+bin:
+1
+client
+log
+server
+
+lib:
+Client
+Server
+
+t:
+Tester.pm
+client.tt
+ls.t
+ls_bin.t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: Tree.pm
+file1
+log
+
+bi2:
+
+bin:
+1
+client
+log
+server
+
+lib:
+Client
+Server
+
+t:
+Tester.pm
+client.tt
+ls.t
+ls_bin.t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: Tree.pm
+file1
+log
+
+bi2:
+
+bin:
+1
+client
+log
+server
+
+lib:
+Client
+Server
+
+t:
+Tester.pm
+client.tt
+ls.t
+ls_bin.t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: Tree.pm
+file1
+log
+
+bi2:
+
+bin:
+1
+client
+log
+server
+
+lib:
+Client
+Server
+
+t:
+Tester.pm
+client.tt
+ls.t
+ls_bin.t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: Tree.pm
+file1
+log
+
+bi2:
+
+bin:
+1
+client
+log
+server
+
+lib:
+Client
+Server
+
+t:
+Tester.pm
+client.tt
+ls.t
+ls_bin.t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: Tree.pm
+file1
+log
+
+bi2:
+
+bin:
+1
+client
+log
+server
+
+lib:
+Client
+Server
+
+t:
+Tester.pm
+client.tt
+ls.t
+ls_bin.t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: Tree.pm
+file1
+log
+
+bi2:
+
+bin:
+1
+client
+log
+server
+
+lib:
+Client
+Server
+
+t:
+Tester.pm
+client.tt
+ls.t
+ls_bin.t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: Tree.pm
+file1
+log
+
+bi2:
+
+bin:
+1
+client
+log
+server
+
+lib:
+Client
+Server
+
+t:
+Tester.pm
+client.tt
+ls.t
+ls_bin.t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: Tree.pm
+file1
+log
+
+bi2:
+
+bin:
+
+
+
+
+
+lib:
+
+
+
+t:
+
+
+
+
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: Tree.pm
+file1
+log
+
+bi2:
+
+bin:
+
+
+
+
+
+lib:
+
+
+
+t:
+
+
+
+
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: Tree.pm
+file1
+log
+
+bi2:
+
+bin:
+1
+client
+log
+server
+
+lib:
+Client
+Server
+
+t:
+Tester.pm
+client.tt
+ls.t
+ls_bin.t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: Tree.pm
+file1
+log
+
+bi2:
+
+bin:
+1
+client
+log
+server
+
+lib:
+Client
+Server
+
+t:
+Tester.pm
+client.tt
+ls.t
+ls_bin.t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: Tree.pm
+file1
+log
+
+bi2:
+
+bin:
+1
+client
+log
+server
+
+lib:
+Client
+Server
+
+t:
+Tester.pm
+client.tt
+ls.t
+ls_bin.t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: Tree.pm
+file1
+log
+
+bi2:
+
+bin:
+1
+client
+log
+server
+
+lib:
+Client
+Server
+
+t:
+Tester.pm
+client.tt
+ls.t
+ls_bin.t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: Tree.pm
+file1
+log
+
+bi2:
+
+bin:
+1
+client
+log
+server
+
+lib:
+Client
+Server
+
+t:
+Tester.pm
+client.tt
+ls.t
+ls_bin.t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: Tree.pm
+file1
+log
+
+bi2:
+
+bin:
+1
+client
+log
+server
+
+lib:
+Client
+Server
+
+t:
+Tester.pm
+client.tt
+ls.t
+ls_bin.t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: Tree.pm
+file1
+log
+
+bi2:
+
+bin:
+1
+client
+log
+server
+
+lib:
+Client
+Server
+
+t:
+Tester.pm
+client.tt
+ls.t
+ls_bin.t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: Tree.pm
+file1
+log
+
+bi2:
+
+bin:
+1
+client
+log
+server
+
+lib:
+Client
+Server
+
+t:
+Tester.pm
+client.tt
+ls.t
+ls_bin.t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: Tree.pm
+file1
+log
+
+bi2:
+
+bin:
+1
+client
+log
+server
+
+lib:
+Client
+Server
+
+t:
+Tester.pm
+client.tt
+ls.t
+ls_bin.t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: Tree.pm
+file1
+log
+
+bi2:
+
+bin:
+1
+client
+log
+server
+
+lib:
+Client
+Server
+
+t:
+Tester.pm
+client.tt
+ls.t
+ls_bin.t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: Tree.pm
+file1
+log
+
+bi2:
+
+bin:
+1
+client
+log
+server
+
+lib:
+Client
+Server
+
+t:
+Tester.pm
+client.tt
+ls.t
+ls_bin.t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: Tree.pm
+file1
+log
+
+bi2:
+
+bin:
+1
+client
+log
+server
+
+lib:
+Client
+Server
+
+t:
+Tester.pm
+client.tt
+ls.t
+ls_bin.t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: Tree.pm
+file1
+log
+
+bi2:
+
+bin:
+1
+client
+log
+server
+
+lib:
+Client
+Server
+
+t:
+Tester.pm
+client.tt
+ls.t
+ls_bin.t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: Tree.pm
+file1
+log
+
+bi2:
+
+bin:
+1
+client
+log
+server
+
+lib:
+Client
+Server
+
+t:
+Tester.pm
+client.tt
+ls.t
+ls_bin.t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: Tree.pm
+file1
+log
+
+bi2:
+
+bin:
+1
+client
+log
+server
+
+lib:
+Client
+Server
+
+t:
+Tester.pm
+client.tt
+ls.t
+ls_bin.t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: Tree.pm
+file1
+log
+
+bi2:
+
+bin:
+1
+client
+log
+server
+
+lib:
+Client
+Server
+
+t:
+Tester.pm
+client.tt
+ls.t
+ls_bin.t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: Tree.pm
+file1
+log
+
+bi2:
+
+bin:
+1
+client
+log
+server
+
+lib:
+Client
+Server
+
+t:
+Tester.pm
+client.tt
+ls.t
+ls_bin.t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: Tree.pm
+file1
+log
+
+bi2:
+
+bin:
+1
+client
+log
+server
+
+lib:
+Client
+Server
+
+t:
+Tester.pm
+client.tt
+ls.t
+ls_bin.t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: Tree.pm
+file1
+log
+
+bi2:
+
+bin:
+1
+client
+log
+server
+
+lib:
+Client
+Server
+
+t:
+Tester.pm
+client.tt
+ls.t
+ls_bin.t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: Tree.pm
+file1
+log
+
+bi2:
+
+bin:
+1
+client
+log
+server
+
+lib:
+Client
+Server
+
+t:
+Tester.pm
+client.tt
+ls.t
+ls_bin.t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: Tree.pm
+bi2
+bin
+file1
+lib
+log
+t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: Tree.pm
+file1
+log
+
+bi2:
+
+bin:
+1
+client
+log
+server
+
+lib:
+Client
+Server
+
+t:
+Tester.pm
+client.tt
+ls.t
+ls_bin.t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: Tree.pm
+bi2
+bin
+file1
+lib
+log
+t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: Tree.pm
+file1
+log
+
+bi2:
+
+bin:
+1
+client
+log
+server
+
+lib:
+Client
+Server
+
+t:
+Tester.pm
+client.tt
+ls.t
+ls_bin.t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: Tree.pm
+bi2
+bin
+file1
+lib
+log
+t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: .
+..
+.b3
+.bbb2
+Tree.pm
+bi2
+bin
+file1
+lib
+log
+t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: Tree.pm
+file1
+log
+
+bi2:
+
+bin:
+1
+client
+log
+server
+
+lib:
+Client
+Server
+
+t:
+Tester.pm
+client.tt
+ls.t
+ls_bin.t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: Tree.pm
+bi2
+bin
+file1
+lib
+log
+t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: .
+..
+.b3
+.bbb2
+Tree.pm
+bi2
+bin
+file1
+lib
+log
+t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: bi2:
+
+bin:
+1
+client
+log
+server
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: Tree.pm
+file1
+log
+
+bi2:
+
+bin:
+1
+client
+log
+server
+
+lib:
+Client
+Server
+
+t:
+Tester.pm
+client.tt
+ls.t
+ls_bin.t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: Tree.pm
+bi2
+bin
+file1
+lib
+log
+t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: .
+..
+.b3
+.bbb2
+Tree.pm
+bi2
+bin
+file1
+lib
+log
+t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: bi2:
+
+bin:
+1
+client
+log
+server
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: bi2:
+.
+..
+
+bin:
+.
+..
+.b4
+.sss
+1
+client
+log
+server
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: Tree.pm
+file1
+log
+
+bi2:
+
+bin:
+1
+client
+log
+server
+
+lib:
+Client
+Server
+
+t:
+Tester.pm
+client.tt
+ls.t
+ls_bin.t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: Tree.pm
+file1
+log
+
+bi2:
+
+bin:
+1
+client
+log
+server
+
+lib:
+Client
+Server
+
+t:
+Tester.pm
+client.tt
+ls.t
+ls_bin.t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: Tree.pm
+bi2
+bin
+file1
+lib
+log
+t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: .
+..
+.b3
+.bbb2
+Tree.pm
+bi2
+bin
+file1
+lib
+log
+t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: bi2:
+
+bin:
+1
+client
+log
+server
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: bi2:
+.
+..
+
+bin:
+.
+..
+.b4
+.sss
+1
+client
+log
+server
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: Tree.pm
+file1
+log
+
+bi2:
+
+bin:
+1
+client
+log
+server
+
+lib:
+Client
+Server
+
+t:
+Tester.pm
+client.tt
+ls.t
+ls_bin.t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: Tree.pm
+file1
+log
+
+bi2:
+
+bin:
+1
+client
+log
+server
+
+lib:
+Client
+Server
+
+t:
+Tester.pm
+client.tt
+ls.t
+ls_bin.t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: Tree.pm
+bi2
+bin
+file1
+lib
+log
+t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: .
+..
+.b3
+.bbb2
+Tree.pm
+bi2
+bin
+file1
+lib
+log
+t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: bi2:
+
+bin:
+1
+client
+log
+server
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: bi2:
+.
+..
+
+bin:
+.
+..
+.b4
+.sss
+1
+client
+log
+server
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: Tree.pm
+file1
+log
+
+bi2:
+
+bin:
+1
+client
+log
+server
+
+lib:
+Client
+Server
+
+t:
+Tester.pm
+client.tt
+ls.t
+ls_bin.t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: Tree.pm
+file1
+log
+
+bi2:
+
+bin:
+1
+client
+log
+server
+
+lib:
+Client
+Server
+
+t:
+Tester.pm
+client.tt
+ls.t
+ls_bin.t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: Tree.pm
+bi2
+bin
+file1
+lib
+log
+t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: .
+..
+.b3
+.bbb2
+Tree.pm
+bi2
+bin
+file1
+lib
+log
+t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: bi2:
+
+bin:
+1
+client
+log
+server
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: bi2:
+.
+..
+
+bin:
+.
+..
+.b4
+.sss
+1
+client
+log
+server
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: Tree.pm
+file1
+log
+
+bi2:
+
+bin:
+1
+client
+log
+server
+
+lib:
+Client
+Server
+
+t:
+Tester.pm
+client.tt
+ls.t
+ls_bin.t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: Tree.pm
+bi2
+bin
+file1
+lib
+log
+t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: .
+..
+.b3
+.bbb2
+Tree.pm
+bi2
+bin
+file1
+lib
+log
+t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: bi2:
+
+bin:
+1
+client
+log
+server
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: bi2:
+.
+..
+
+bin:
+.
+..
+.b4
+.sss
+1
+client
+log
+server
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: Tree.pm
+file1
+log
+
+bi2:
+
+bin:
+1
+client
+log
+server
+
+lib:
+Client
+Server
+
+t:
+Tester.pm
+client.tt
+ls.t
+ls_bin.t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: Tree.pm
+bi2
+bin
+file1
+lib
+log
+t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: .
+..
+.b3
+.bbb2
+Tree.pm
+bi2
+bin
+file1
+lib
+log
+t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: bi2:
+
+bin:
+1
+client
+log
+server
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: bi2:
+.
+..
+
+bin:
+.
+..
+.b4
+.sss
+1
+client
+log
+server
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: Tree.pm
+file1
+log
+
+bi2:
+
+bin:
+1
+client
+log
+server
+
+lib:
+Client
+Server
+
+t:
+Tester.pm
+client.tt
+ls.t
+ls_bin.t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: Tree.pm
+bi2
+bin
+file1
+lib
+log
+t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: .
+..
+.b3
+.bbb2
+Tree.pm
+bi2
+bin
+file1
+lib
+log
+t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: bi2:
+
+bin:
+1
+client
+log
+server
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: bi2:
+.
+..
+
+bin:
+.
+..
+.b4
+.sss
+1
+client
+log
+server
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: Tree.pm
+file1
+log
+
+bi2:
+
+bin:
+1
+client
+log
+server
+
+lib:
+Client
+Server
+
+t:
+Tester.pm
+client.tt
+ls.t
+ls_bin.t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: Tree.pm
+bi2
+bin
+file1
+lib
+log
+t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: .
+..
+.b3
+.bbb2
+Tree.pm
+bi2
+bin
+file1
+lib
+log
+t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: bi2:
+
+bin:
+1
+client
+log
+server
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: bi2:
+.
+..
+
+bin:
+.
+..
+.b4
+.sss
+1
+client
+log
+server
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: Tree.pm
+file1
+log
+
+bi2:
+
+bin:
+1
+client
+log
+server
+
+lib:
+Client
+Server
+
+t:
+Tester.pm
+client.tt
+ls.t
+ls_bin.t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: Tree.pm
+file1
+log
+
+bi2:
+
+bin:
+1
+client
+log
+server
+
+lib:
+Client
+Server
+
+t:
+Tester.pm
+client.tt
+ls.t
+ls_bin.t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: Tree.pm
+bi2
+bin
+file1
+lib
+log
+t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: .
+..
+.b3
+.bbb2
+Tree.pm
+bi2
+bin
+file1
+lib
+log
+t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: bi2:
+
+bin:
+1
+client
+log
+server
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: bi2:
+.
+..
+
+bin:
+.
+..
+.b4
+.sss
+1
+client
+log
+server
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: Tree.pm
+file1
+log
+
+bi2:
+.
+..
+
+bin:
+.
+..
+.b4
+.sss
+1
+client
+log
+server
+
+lib:
+.
+..
+Client
+Server
+
+t:
+.
+..
+Tester.pm
+client.tt
+ls.t
+ls_bin.t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: Tree.pm
+file1
+log
+
+bi2:
+
+bin:
+1
+client
+log
+server
+
+lib:
+Client
+Server
+
+t:
+Tester.pm
+client.tt
+ls.t
+ls_bin.t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: Tree.pm
+file1
+log
+
+bi2:
+
+bin:
+1
+client
+log
+server
+
+lib:
+Client
+Server
+
+t:
+Tester.pm
+client.tt
+ls.t
+ls_bin.t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: Tree.pm
+bi2
+bin
+file1
+lib
+log
+t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: .
+..
+.b3
+.bbb2
+Tree.pm
+bi2
+bin
+file1
+lib
+log
+t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: bi2:
+
+bin:
+1
+client
+log
+server
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: bi2:
+.
+..
+
+bin:
+.
+..
+.b4
+.sss
+1
+client
+log
+server
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: Tree.pm
+file1
+log
+
+bi2:
+
+bin:
+1
+client
+log
+server
+
+lib:
+Client
+Server
+
+t:
+Tester.pm
+client.tt
+ls.t
+ls_bin.t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: Tree.pm
+file1
+log
+
+bi2:
+.
+..
+
+bin:
+.
+..
+.b4
+.sss
+1
+client
+log
+server
+
+lib:
+.
+..
+Client
+Server
+
+t:
+.
+..
+Tester.pm
+client.tt
+ls.t
+ls_bin.t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: Tree.pm
+bi2
+bin
+file1
+lib
+log
+t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: .
+..
+.b3
+.bbb2
+Tree.pm
+bi2
+bin
+file1
+lib
+log
+t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: bi2:
+
+bin:
+1
+client
+log
+server
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: bi2:
+.
+..
+
+bin:
+.
+..
+.b4
+.sss
+1
+client
+log
+server
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: Tree.pm
+edit
+file1
+log
+
+bi2:
+
+bin:
+1
+client
+log
+server
+
+lib:
+Client
+Server
+
+t:
+Tester.pm
+client.tt
+ls.t
+ls_bin.t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: Tree.pm
+edit
+file1
+log
+
+bi2:
+.
+..
+
+bin:
+.
+..
+.b4
+.sss
+1
+client
+log
+server
+
+lib:
+.
+..
+Client
+Server
+
+t:
+.
+..
+Tester.pm
+client.tt
+ls.t
+ls_bin.t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: Tree.pm
+bi2
+bin
+edit
+file1
+lib
+log
+t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: .
+..
+.b3
+.bbb2
+Tree.pm
+bi2
+bin
+edit
+file1
+lib
+log
+t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: bi2:
+
+bin:
+1
+client
+log
+server
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: bi2:
+.
+..
+
+bin:
+.
+..
+.b4
+.sss
+1
+client
+log
+server
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: Tree.pm
+edit
+file1
+log
+
+bi2:
+
+bin:
+1
+client
+log
+server
+
+lib:
+Client
+Server
+
+t:
+Tester.pm
+client.tt
+ls.t
+ls_bin.t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: Tree.pm
+edit
+file1
+log
+
+bi2:
+.
+..
+
+bin:
+.
+..
+.b4
+.sss
+1
+client
+log
+server
+
+lib:
+.
+..
+Client
+Server
+
+t:
+.
+..
+Tester.pm
+client.tt
+ls.t
+ls_bin.t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: Tree.pm
+bi2
+bin
+edit
+file1
+lib
+log
+t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: .
+..
+.b3
+.bbb2
+Tree.pm
+bi2
+bin
+edit
+file1
+lib
+log
+t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: bi2:
+
+bin:
+1
+client
+log
+server
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: bi2:
+.
+..
+
+bin:
+.
+..
+.b4
+.sss
+1
+client
+log
+server
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: Tree.pm
+edit
+file1
+log
+
+bi2:
+
+bin:
+1
+client
+log
+server
+
+lib:
+Client
+Server
+
+t:
+Tester.pm
+client.tt
+ls.t
+ls_bin.t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: Tree.pm
+edit
+file1
+log
+
+bi2:
+.
+..
+
+bin:
+.
+..
+.b4
+.sss
+1
+client
+log
+server
+
+lib:
+.
+..
+Client
+Server
+
+t:
+.
+..
+Tester.pm
+client.tt
+ls.t
+ls_bin.t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: Tree.pm
+bi2
+bin
+edit
+file1
+lib
+log
+t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: .
+..
+.b3
+.bbb2
+Tree.pm
+bi2
+bin
+edit
+file1
+lib
+log
+t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: bi2:
+
+bin:
+1
+client
+log
+server
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: bi2:
+.
+..
+
+bin:
+.
+..
+.b4
+.sss
+1
+client
+log
+server
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: Tree.pm
+edit
+file1
+log
+
+bi2:
+
+bin:
+1
+client
+log
+server
+
+lib:
+Client
+Server
+
+t:
+Tester.pm
+client.tt
+ls.t
+ls_bin.t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: Tree.pm
+edit
+file1
+log
+
+bi2:
+.
+..
+
+bin:
+.
+..
+.b4
+.sss
+1
+client
+log
+server
+
+lib:
+.
+..
+Client
+Server
+
+t:
+.
+..
+Tester.pm
+client.tt
+ls.t
+ls_bin.t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: Tree.pm
+bi2
+bin
+edit
+file1
+lib
+log
+t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: .
+..
+.b3
+.bbb2
+Tree.pm
+bi2
+bin
+edit
+file1
+lib
+log
+t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: bi2:
+
+bin:
+1
+client
+log
+server
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: bi2:
+.
+..
+
+bin:
+.
+..
+.b4
+.sss
+1
+client
+log
+server
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: Tree.pm
+edit
+file1
+log
+
+bi2:
+
+bin:
+1
+client
+log
+server
+
+lib:
+Client
+Server
+
+t:
+Tester.pm
+client.tt
+ls.t
+ls_bin.t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: Tree.pm
+edit
+file1
+log
+
+bi2:
+.
+..
+
+bin:
+.
+..
+.b4
+.sss
+1
+client
+log
+server
+
+lib:
+.
+..
+Client
+Server
+
+t:
+.
+..
+Tester.pm
+client.tt
+ls.t
+ls_bin.t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: Tree.pm
+bi2
+bin
+edit
+file1
+lib
+log
+t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: .
+..
+.b3
+.bbb2
+Tree.pm
+bi2
+bin
+edit
+file1
+lib
+log
+t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: bi2:
+
+bin:
+1
+client
+log
+server
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: bi2:
+.
+..
+
+bin:
+.
+..
+.b4
+.sss
+1
+client
+log
+server
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: Tree.pm
+edit
+file1
+log
+
+bi2:
+
+bin:
+1
+client
+log
+server
+
+lib:
+Client
+Server
+
+t:
+Tester.pm
+client.tt
+ls.t
+ls_bin.t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: Tree.pm
+edit
+file1
+log
+
+bi2:
+.
+..
+
+bin:
+.
+..
+.b4
+.sss
+1
+client
+log
+server
+
+lib:
+.
+..
+Client
+Server
+
+t:
+.
+..
+Tester.pm
+client.tt
+ls.t
+ls_bin.t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: Tree.pm
+bi2
+bin
+edit
+file1
+lib
+log
+t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: .
+..
+.b3
+.bbb2
+Tree.pm
+bi2
+bin
+edit
+file1
+lib
+log
+t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: bi2:
+
+bin:
+1
+client
+log
+server
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: bi2:
+.
+..
+
+bin:
+.
+..
+.b4
+.sss
+1
+client
+log
+server
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: Tree.pm
+edit
+file1
+log
+
+bi2:
+
+bin:
+1
+client
+log
+server
+
+lib:
+Client
+Server
+
+t:
+Tester.pm
+client.tt
+ls.t
+ls_bin.t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: Tree.pm
+edit
+file1
+log
+
+bi2:
+.
+..
+
+bin:
+.
+..
+.b4
+.sss
+1
+client
+log
+server
+
+lib:
+.
+..
+Client
+Server
+
+t:
+.
+..
+Tester.pm
+client.tt
+ls.t
+ls_bin.t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: Tree.pm
+bi2
+bin
+edit
+file1
+lib
+log
+t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: .
+..
+.b3
+.bbb2
+Tree.pm
+bi2
+bin
+edit
+file1
+lib
+log
+t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: bi2:
+
+bin:
+1
+client
+log
+server
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: bi2:
+.
+..
+
+bin:
+.
+..
+.b4
+.sss
+1
+client
+log
+server
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: Tree.pm
+edit
+file1
+log
+
+bi2:
+
+bin:
+1
+client
+log
+server
+
+lib:
+Client
+Server
+
+t:
+Tester.pm
+client.tt
+ls.t
+ls_bin.t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: Tree.pm
+edit
+file1
+log
+
+bi2:
+.
+..
+
+bin:
+.
+..
+.b4
+.sss
+1
+client
+log
+server
+
+lib:
+.
+..
+Client
+Server
+
+t:
+.
+..
+Tester.pm
+client.tt
+ls.t
+ls_bin.t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: Tree.pm
+bi2
+bin
+edit
+file1
+lib
+log
+t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: .
+..
+.b3
+.bbb2
+Tree.pm
+bi2
+bin
+edit
+file1
+lib
+log
+t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: bi2:
+
+bin:
+1
+client
+log
+server
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: bi2:
+.
+..
+
+bin:
+.
+..
+.b4
+.sss
+1
+client
+log
+server
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: Tree.pm
+edit
+file1
+log
+
+bi2:
+
+bin:
+1
+client
+log
+server
+
+lib:
+Client
+Server
+
+t:
+Tester.pm
+client.tt
+ls.t
+ls_bin.t
+shell.t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: Tree.pm
+edit
+file1
+log
+
+bi2:
+.
+..
+
+bin:
+.
+..
+.b4
+.sss
+1
+client
+log
+server
+
+lib:
+.
+..
+Client
+Server
+
+t:
+.
+..
+Tester.pm
+client.tt
+ls.t
+ls_bin.t
+shell.t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: Tree.pm
+bi2
+bin
+edit
+file1
+lib
+log
+t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: .
+..
+.b3
+.bbb2
+Tree.pm
+bi2
+bin
+edit
+file1
+lib
+log
+t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: bi2:
+
+bin:
+1
+client
+log
+server
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: bi2:
+.
+..
+
+bin:
+.
+..
+.b4
+.sss
+1
+client
+log
+server
+
+----------------------------------------------------------------------------------------------------
+command: whoami
+answer: alexfmsu
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: bi2
+bin
+edit
+file1
+lib
+log
+t
+Tree.pm
+
+----------------------------------------------------------------------------------------------------
+command: touch
+answer: 
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: file1
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: Tree.pm
+edit
+file1
+log
+
+bi2:
+
+bin:
+1
+client
+log
+server
+
+lib:
+Client
+Server
+
+t:
+Tester.pm
+client.tt
+ls.t
+ls_bin.t
+shell.t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: Tree.pm
+edit
+file1
+log
+
+bi2:
+.
+..
+
+bin:
+.
+..
+.b4
+.sss
+1
+client
+log
+server
+
+lib:
+.
+..
+Client
+Server
+
+t:
+.
+..
+Tester.pm
+client.tt
+ls.t
+ls_bin.t
+shell.t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: Tree.pm
+bi2
+bin
+edit
+file1
+lib
+log
+t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: .
+..
+.b3
+.bbb2
+Tree.pm
+bi2
+bin
+edit
+file1
+lib
+log
+t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: bi2:
+
+bin:
+1
+client
+log
+server
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: bi2:
+.
+..
+
+bin:
+.
+..
+.b4
+.sss
+1
+client
+log
+server
+
+----------------------------------------------------------------------------------------------------
+command: whoami
+answer: alexfmsu
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: bi2
+bin
+edit
+file1
+lib
+log
+t
+Tree.pm
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: Tree.pm
+edit
+file1
+log
+
+bi2:
+
+bin:
+1
+client
+log
+server
+
+lib:
+Client
+Server
+
+t:
+Tester.pm
+client.tt
+ls.t
+ls_bin.t
+shell.t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: Tree.pm
+edit
+file1
+log
+
+bi2:
+.
+..
+
+bin:
+.
+..
+.b4
+.sss
+1
+client
+log
+server
+
+lib:
+.
+..
+Client
+Server
+
+t:
+.
+..
+Tester.pm
+client.tt
+ls.t
+ls_bin.t
+shell.t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: Tree.pm
+bi2
+bin
+edit
+file1
+lib
+log
+t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: .
+..
+.b3
+.bbb2
+Tree.pm
+bi2
+bin
+edit
+file1
+lib
+log
+t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: bi2:
+
+bin:
+1
+client
+log
+server
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: bi2:
+.
+..
+
+bin:
+.
+..
+.b4
+.sss
+1
+client
+log
+server
+
+----------------------------------------------------------------------------------------------------
+command: whoami
+answer: alexfmsu
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: bi2
+bin
+edit
+file1
+lib
+log
+t
+Tree.pm
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: Tree.pm
+edit
+file1
+log
+
+bi2:
+
+bin:
+1
+client
+log
+server
+
+lib:
+Client
+Server
+
+t:
+Tester.pm
+client.tt
+ls.t
+ls_bin.t
+shell.t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: Tree.pm
+edit
+file1
+log
+
+bi2:
+.
+..
+
+bin:
+.
+..
+.b4
+.sss
+1
+client
+log
+server
+
+lib:
+.
+..
+Client
+Server
+
+t:
+.
+..
+Tester.pm
+client.tt
+ls.t
+ls_bin.t
+shell.t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: Tree.pm
+bi2
+bin
+edit
+file1
+lib
+log
+t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: .
+..
+.b3
+.bbb2
+Tree.pm
+bi2
+bin
+edit
+file1
+lib
+log
+t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: bi2:
+
+bin:
+1
+client
+log
+server
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: bi2:
+.
+..
+
+bin:
+.
+..
+.b4
+.sss
+1
+client
+log
+server
+
+----------------------------------------------------------------------------------------------------
+command: whoami
+answer: alexfmsu
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: bi2
+bin
+edit
+file1
+lib
+log
+t
+Tree.pm
+
+----------------------------------------------------------------------------------------------------
+command: touch
+answer: 
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: file1
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: Tree.pm
+edit
+log
+
+bi2:
+
+bin:
+1
+client
+log
+server
+
+lib:
+Client
+Server
+
+t:
+Tester.pm
+client.tt
+ls.t
+ls_bin.t
+shell.t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: Tree.pm
+edit
+log
+
+bi2:
+.
+..
+
+bin:
+.
+..
+.b4
+.sss
+1
+client
+log
+server
+
+lib:
+.
+..
+Client
+Server
+
+t:
+.
+..
+Tester.pm
+client.tt
+ls.t
+ls_bin.t
+shell.t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: Tree.pm
+bi2
+bin
+edit
+lib
+log
+t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: .
+..
+.b3
+.bbb2
+Tree.pm
+bi2
+bin
+edit
+lib
+log
+t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: bi2:
+
+bin:
+1
+client
+log
+server
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: bi2:
+.
+..
+
+bin:
+.
+..
+.b4
+.sss
+1
+client
+log
+server
+
+----------------------------------------------------------------------------------------------------
+command: whoami
+answer: alexfmsu
+
+----------------------------------------------------------------------------------------------------
+command: pwd
+answer: /home/alexfmsu/Git/FINAL
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: bi2
+bin
+edit
+lib
+log
+t
+Tree.pm
+
+----------------------------------------------------------------------------------------------------
+command: touch
+answer: 
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: file1
+
+----------------------------------------------------------------------------------------------------
+command: touch
+answer: 
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: file1
+
+----------------------------------------------------------------------------------------------------
+command: rm
+answer: Unable to rmdir .: Invalid argument
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: file1
+
+----------------------------------------------------------------------------------------------------
+command: rm
+answer: 
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: ls: невозможно получить доступ к 'file1': Нет такого файла или каталога
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: Tree.pm
+edit
+log
+
+bi2:
+
+bin:
+1
+client
+log
+server
+
+lib:
+Client
+Server
+
+t:
+Tester.pm
+client.tt
+ls.t
+ls_bin.t
+rm.t
+shell.t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: Tree.pm
+edit
+log
+
+bi2:
+.
+..
+
+bin:
+.
+..
+.b4
+.sss
+1
+client
+log
+server
+
+lib:
+.
+..
+Client
+Server
+
+t:
+.
+..
+Tester.pm
+client.tt
+ls.t
+ls_bin.t
+rm.t
+shell.t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: Tree.pm
+bi2
+bin
+edit
+lib
+log
+t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: .
+..
+Tree.pm
+bi2
+bin
+edit
+lib
+log
+t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: bi2:
+
+bin:
+1
+client
+log
+server
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: bi2:
+.
+..
+
+bin:
+.
+..
+.b4
+.sss
+1
+client
+log
+server
+
+----------------------------------------------------------------------------------------------------
+command: rm
+answer: 
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: ls: невозможно получить доступ к 'file1': Нет такого файла или каталога
+
+----------------------------------------------------------------------------------------------------
+command: whoami
+answer: alexfmsu
+
+----------------------------------------------------------------------------------------------------
+command: pwd
+answer: /home/alexfmsu/Git/tcp_server
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: bi2
+bin
+edit
+lib
+log
+t
+Tree.pm
+
+----------------------------------------------------------------------------------------------------
+command: touch
+answer: 
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: file1
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: Tree.pm
+edit
+log
+
+bi2:
+
+bin:
+1
+client
+log
+server
+
+lib:
+Client
+Server
+
+t:
+Tester.pm
+client.tt
+ls.t
+ls_bin.t
+rm.t
+shell.t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: Tree.pm
+edit
+log
+
+bi2:
+.
+..
+
+bin:
+.
+..
+.b4
+.sss
+1
+client
+log
+server
+
+lib:
+.
+..
+Client
+Server
+
+t:
+.
+..
+Tester.pm
+client.tt
+ls.t
+ls_bin.t
+rm.t
+shell.t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: Tree.pm
+bi2
+bin
+edit
+lib
+log
+t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: .
+..
+Tree.pm
+bi2
+bin
+edit
+lib
+log
+t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: bi2:
+
+bin:
+1
+client
+log
+server
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: bi2:
+.
+..
+
+bin:
+.
+..
+.b4
+.sss
+1
+client
+log
+server
+
+----------------------------------------------------------------------------------------------------
+command: rm
+answer: 
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: ls: невозможно получить доступ к 'file1': Нет такого файла или каталога
+
+----------------------------------------------------------------------------------------------------
+command: whoami
+answer: alexfmsu
+
+----------------------------------------------------------------------------------------------------
+command: pwd
+answer: /home/alexfmsu/Git/tcp_server
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: bi2
+bin
+edit
+lib
+log
+t
+Tree.pm
+
+----------------------------------------------------------------------------------------------------
+command: touch
+answer: 
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: file1
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: Tree.pm
+edit
+log
+
+bi2:
+
+bin:
+1
+client
+log
+server
+
+lib:
+Client
+Server
+
+t:
+Tester.pm
+client.tt
+ls.t
+ls_bin.t
+rm.t
+shell.t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: Tree.pm
+edit
+log
+
+bi2:
+.
+..
+
+bin:
+.
+..
+.b4
+.sss
+1
+client
+log
+server
+
+lib:
+.
+..
+Client
+Server
+
+t:
+.
+..
+Tester.pm
+client.tt
+ls.t
+ls_bin.t
+rm.t
+shell.t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: Tree.pm
+bi2
+bin
+edit
+lib
+log
+t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: .
+..
+Tree.pm
+bi2
+bin
+edit
+lib
+log
+t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: bi2:
+
+bin:
+1
+client
+log
+server
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: bi2:
+.
+..
+
+bin:
+.
+..
+.b4
+.sss
+1
+client
+log
+server
+
+----------------------------------------------------------------------------------------------------
+command: rm
+answer: 
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: Tree.pm
+edit
+log
+
+bi2:
+
+bin:
+1
+client
+log
+server
+
+lib:
+Client
+Server
+
+t:
+Tester.pm
+client.tt
+ls.t
+ls_bin.t
+rm.t
+shell.t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: Tree.pm
+edit
+log
+
+bi2:
+.
+..
+
+bin:
+.
+..
+.b4
+.sss
+1
+client
+log
+server
+
+lib:
+.
+..
+Client
+Server
+
+t:
+.
+..
+Tester.pm
+client.tt
+ls.t
+ls_bin.t
+rm.t
+shell.t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: Tree.pm
+bi2
+bin
+edit
+lib
+log
+t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: .
+..
+Tree.pm
+bi2
+bin
+edit
+lib
+log
+t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: bi2:
+
+bin:
+1
+client
+log
+server
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: bi2:
+.
+..
+
+bin:
+.
+..
+.b4
+.sss
+1
+client
+log
+server
+
+----------------------------------------------------------------------------------------------------
+command: rm
+answer: 
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: ls: невозможно получить доступ к 'file1': Нет такого файла или каталога
+
+----------------------------------------------------------------------------------------------------
+command: whoami
+answer: alexfmsu
+
+----------------------------------------------------------------------------------------------------
+command: pwd
+answer: /home/alexfmsu/Git/tcp_server
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: bi2
+bin
+edit
+lib
+log
+t
+Tree.pm
+
+----------------------------------------------------------------------------------------------------
+command: touch
+answer: 
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: file1
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: Tree.pm
+edit
+log
+
+bi2:
+
+bin:
+1
+client
+log
+server
+
+lib:
+Client
+Server
+
+t:
+Tester.pm
+client.tt
+ls.t
+ls_bin.t
+rm.t
+shell.t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: Tree.pm
+edit
+log
+
+bi2:
+.
+..
+
+bin:
+.
+..
+.b4
+.sss
+1
+client
+log
+server
+
+lib:
+.
+..
+Client
+Server
+
+t:
+.
+..
+Tester.pm
+client.tt
+ls.t
+ls_bin.t
+rm.t
+shell.t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: Tree.pm
+bi2
+bin
+edit
+lib
+log
+t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: .
+..
+Tree.pm
+bi2
+bin
+edit
+lib
+log
+t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: bi2:
+
+bin:
+1
+client
+log
+server
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: bi2:
+.
+..
+
+bin:
+.
+..
+.b4
+.sss
+1
+client
+log
+server
+
+----------------------------------------------------------------------------------------------------
+command: rm
+answer: 
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: ls: невозможно получить доступ к 'file1': Нет такого файла или каталога
+
+----------------------------------------------------------------------------------------------------
+command: whoami
+answer: alexfmsu
+
+----------------------------------------------------------------------------------------------------
+command: pwd
+answer: /home/alexfmsu/Git/tcp_server
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: bi2
+bin
+edit
+lib
+log
+t
+Tree.pm
+
+----------------------------------------------------------------------------------------------------
+command: touch
+answer: 
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: file1
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: Tree.pm
+bi2
+bin
+edit
+lib
+log
+t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: Tree.pm
+bi2
+bin
+edit
+lib
+log
+t
+
+----------------------------------------------------------------------------------------------------
+command: mkdir
+answer: 
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: 12
+Tree.pm
+bi2
+bin
+edit
+lib
+log
+t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: Tree.pm
+edit
+log
+
+12:
+
+122:
+
+bi2:
+
+bin:
+1
+client
+log
+server
+
+lib:
+Client
+Server
+
+t:
+Tester.pm
+client.tt
+ls.t
+ls_bin.t
+rm.t
+shell.t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: Tree.pm
+edit
+log
+
+12:
+.
+..
+
+122:
+.
+..
+
+bi2:
+.
+..
+
+bin:
+.
+..
+.b4
+.sss
+1
+client
+log
+server
+
+lib:
+.
+..
+Client
+Server
+
+t:
+.
+..
+Tester.pm
+client.tt
+ls.t
+ls_bin.t
+rm.t
+shell.t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: 12
+122
+Tree.pm
+bi2
+bin
+edit
+lib
+log
+t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: .
+..
+12
+122
+Tree.pm
+bi2
+bin
+edit
+lib
+log
+t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: bi2:
+
+bin:
+1
+client
+log
+server
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: bi2:
+.
+..
+
+bin:
+.
+..
+.b4
+.sss
+1
+client
+log
+server
+
+----------------------------------------------------------------------------------------------------
+command: whoami
+answer: alexfmsu
+
+----------------------------------------------------------------------------------------------------
+command: pwd
+answer: /home/alexfmsu/Git/tcp_server
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: 12
+122
+bi2
+bin
+edit
+lib
+log
+t
+Tree.pm
+
+----------------------------------------------------------------------------------------------------
+command: touch
+answer: 
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: file1
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: 12
+122
+Tree.pm
+bi2
+bin
+edit
+lib
+log
+t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: 12
+122
+Tree.pm
+bi2
+bin
+edit
+lib
+log
+t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: 12
+122
+Tree.pm
+bi2
+bin
+edit
+lib
+log
+t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: 12
+122
+Tree.pm
+bi2
+bin
+edit
+lib
+log
+t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: 12
+122
+Tree.pm
+bi2
+bin
+edit
+lib
+log
+t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: 12
+122
+Tree.pm
+bi2
+bin
+edit
+lib
+log
+t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: 12
+122
+Tree.pm
+bi2
+bin
+edit
+lib
+log
+t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: 12
+122
+Tree.pm
+bi2
+bin
+edit
+lib
+log
+t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: 12
+122
+Tree.pm
+bi2
+bin
+edit
+lib
+log
+t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: 12
+122
+Tree.pm
+bi2
+bin
+edit
+lib
+log
+t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: 1
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: 12
+122
+333
+Tree.pm
+bi2
+bin
+edit
+lib
+log
+t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: 12
+122
+333
+Tree.pm
+bi2
+bin
+edit
+lib
+log
+t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: 12
+122
+333
+Tree.pm
+bi2
+bin
+edit
+lib
+log
+t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: .
+..
+12
+122
+333
+Tree.pm
+bi2
+bin
+edit
+lib
+log
+t
+
+----------------------------------------------------------------------------------------------------
+command: ls
+answer: 12
+122
+333
+Tree.pm
+bi2
+bin
+edit
+lib
+log
+t
+
+----------------------------------------------------------------------------------------------------

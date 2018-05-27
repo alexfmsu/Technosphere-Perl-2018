@@ -20,7 +20,7 @@ my ($host, $port);
 
 GetOptions(
     "verbose+" => \$verbose,
-    "help" => \$help
+    "help"     => \$help
 );
 
 our $help_message = <<'HELP_MESSAGE';
@@ -40,7 +40,7 @@ if (!defined($host)) {
     exit(0);
 }
 
-my $client = Client::Client->new(host=>$host, port=>$port);
+my $client = Client::Client->new(host => $host, port => $port);
 # my $socket = IO::Socket::INET->new(
 #     PeerAddr => $host,
 #     PeerPort => $port,
@@ -58,38 +58,6 @@ chomp($prompt);
 $prompt = '[' . $prompt . ' ~]$ ';
 
 my $socket = $client->{socket};
-use DDP;
-
-# while (defined($_ = $term->readline($prompt))) {
-#     next if /^\s*$/;
-
-#     s/^\s+//;
-#     s/\s+$//;
-
-#     my @exit = qw(\\q exit quit);
-
-#     if ($_ ~~ @exit) {
-#         exit(0);
-#     }
-
-#     my $cmd = encode_json({ cmd => $_, verbose => $verbose });
-
-#     p $cmd;
-#     print $socket $cmd . "\n";
-
-#     my $answer = <$socket>;
-#     p $answer;
-#     chomp($answer);
-
-#     $answer = decode_json($answer);
-
-#     if ($answer->{err_code}) {
-#         say $answer->{err_msg};
-#         exit(0);
-#     }
-
-#     say $answer->{result};
-# }
 
 while (defined($_ = $term->readline($prompt))) {
     $client->handle_input($_);

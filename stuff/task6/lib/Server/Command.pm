@@ -1,4 +1,4 @@
-package Client::Command;
+package Server::Command;
 
 use 5.016;
 use strict;
@@ -8,8 +8,10 @@ use Server::Storage::PathResolver;
 
 use Term::ANSIColor qw(:constants);
 
+use Server::Commands::ls;
+
 our %handler = (
-    ls    => \&Client::Command::ls,
+    ls    => \&Server::Commands::ls::ls,
     mkdir => \&Client::Command::mkdir,
     cd    => \&Client::Command::cd,
     cp    => \&Client::Command::cp,
@@ -252,109 +254,6 @@ sub cd {
     return $out;
 }
 
-sub ls {
-    my $params = shift;
-
-    my $verbose = $params->{verbose};
-
-    my $out = '';
-
-    open my $fh, ">>", \$out;
-    select $fh;
-
-    my $args = '';
-
-    if ($params->{args}) {
-        $args .= join(' ', @{ $params->{args} });
-    }
-
-    if ($args) {
-        $args =~ /^([^{]+)(.*)$/;
-
-        $args = $1;
-
-        if ($2) {
-            my @obj = parse_object($2);
-
-            my $path = [];
-
-            for (@obj) {
-                push @$path, "$args$_", for @$_;
-            }
-
-            $args = join ' ', @$path;
-        }
-    }
-
-    my $cmd = $params->{command} . ' ';
-    $cmd .= $args . ' ' if $args;
-    $cmd .= join(' ', @{ $params->{flags} }) . ' ' if defined $params->{flags};
-    chop($cmd);
-
-    if ($verbose) {
-        say $cmd;
-        say "";
-        say BOLD, BLUE, 'ls -l -A: ', RESET, 'The ls command lists the contents of, and optional information about, directories and files.';
-        say "";
-        say "\t  With no options, ls lists the files contained in the current directory, sorting them alphabetically.";
-        say "";
-        say "\t  -l: Use a long listing format";
-        say "\t  -A: Do not list implied \".\" and \"..\"";
-        say "";
-    }
-
-    if ($verbose > 1) {
-        say BOLD, BLUE, 'Command: ', RESET, $cmd;
-        say "";
-    }
-
-    my @files = Server::Storage::PathResolver::resolve($params, $args);
-# p @files;
-# p $out;
-
-    if(@files){
-    say join "\n", @files;
-}
-    select(STDOUT);
-
-    return $out;
-}
-
-sub cp {
-    my $params = shift;
-
-    my $verbose = $params->{verbose};
-
-    my $out;
-
-    open my $fh, ">>", \$out;
-    select $fh;
-
-    my $cmd = 'cp ';
-
-    $cmd .= join(' ', @{ $params->{args} }) . ' '  if defined $params->{args};
-    $cmd .= join(' ', @{ $params->{flags} }) . ' ' if defined $params->{flags};
-
-    if ($verbose) {
-        say $cmd;
-        say "";
-        say BOLD, BLUE, 'cp: ', RESET, "The cp command is makes copies of files and directories.";
-        say "";
-        say BOLD, BLUE, "Syntax: ", RESET, "cp source destination";
-        say "";
-    }
-
-    if ($verbose > 1) {
-        say BOLD, BLUE, 'Command: ', RESET, $cmd;
-        say "";
-    }
-
-    say qx($cmd);
-
-    select(STDOUT);
-
-    return $out;
-}
 
 sub mv {
     my $params = shift;

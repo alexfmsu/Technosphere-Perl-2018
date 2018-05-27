@@ -64,7 +64,7 @@ sub resolve{
     my @files;
 
     @f = map { Path::Resolve->new()->join($params->{root_dir}, $_) } sort @f;
-    
+    p @f;
     my @_files = grep { -f $_ } @f;
     my @_dirs = grep { -d $_ } @f;
     

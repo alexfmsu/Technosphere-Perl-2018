@@ -1,21 +1,17 @@
-package Server::Client;
+package Server::CommandHandler;
 
 use 5.16.0;
 use strict;
 use warnings;
+
 use DDP;
 
 use Getopt::Long;
+
 use Term::ReadLine;
-use Path::Resolve;
-use JSON::XS;
+# use Path::Resolve;
 
-use lib '.';
-
-use Server::Config;
 use Server::Command;
-
-use IO::Socket;
 
 no warnings 'experimental';
 
@@ -26,18 +22,6 @@ sub new {
 
     return $obj;
 }
-
-my $help;
-my $verbose;
-
-# -----------------------------------------------
-our $help_message = <<'HELP_MESSAGE';
-client.pl [-h] [-v] /path/to/somewhere
-        
-        -h | --help        - print usage and exit
-        -v | --verbose     - be verbose
-HELP_MESSAGE
-# -----------------------------------------------
 
 sub set_local_pwd {
     my $self = shift;
@@ -120,9 +104,9 @@ sub handle_input {
     # $_ = $self->{alias}->get_alias($_);
 
     my $h = $in;
-    
+
     $h->{root_dir} = $self->{root_dir};
-    
+
     if ($h->{shell} == 1) {
         $cmd = Client::Command->new(%$h);
     }
@@ -145,13 +129,13 @@ sub handle_input {
         }
 
         if ($h->{command} ~~ [ 'exit', 'quit', '\q' ]) {
-            $self->{alias}->push_alias();
+            # $self->{alias}->push_alias();
 
-            $self->{history}->push_history();
+            # $self->{history}->push_history();
 
-            say "Bye!";
+            # say "Bye!";
 
-            exit(0);
+            # exit(0);
         }
 
         $cmd = Client::Command->new(%$h);
@@ -160,14 +144,15 @@ sub handle_input {
     my $out;
 
     if (defined($cmd)) {
-        $cmd->{verbose} = $self->{verbose};
-        $cmd->{host}    = $self->{host};
-        $cmd->{port}    = $self->{port};
+        # $cmd->{verbose} = $self->{verbose};
+        $cmd->{host} = $self->{host};
+        $cmd->{port} = $self->{port};
 
         if ($cmd->{shell} == 1) {
             $out = $cmd->shell_call();
         }
         elsif ($cmd->{command} ne 'alias') {
+            p $cmd;
             $out = $cmd->call();
         }
 

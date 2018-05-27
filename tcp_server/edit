@@ -1,0 +1,24 @@
+./bin
+	server
+		1-7 +
+
+	client
+
+./lib
+	./Server
+		./Commands
+
+		./Storage
+
+	./Client
+
+t
+	ls.t
+
+	rm.t
+
+	mkdir.t
+
+	cd.t
+
+	shell.t

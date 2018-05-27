@@ -5,7 +5,6 @@ use strict;
 use warnings;
 
 use utf8;
-use DDP;
 
 use Getopt::Long;
 
@@ -20,7 +19,7 @@ my ($host, $port, $max_connections, $root_dir);
 use Server::Server;
 
 GetOptions(
-    "port=i" => \$port,
+    "port=i"              => \$port,
     "max_connections|m=i" => \$max_connections,
 );
 
@@ -36,9 +35,9 @@ if (@ARGV != 1) {
 $root_dir = $ARGV[0];
 
 my $server = Server::Server->new(
-    port=>$port,
-    max_connections=>$max_connections,
-    root_dir=>$root_dir
+    port            => $port,
+    max_connections => $max_connections,
+    root_dir        => $root_dir
 );
 
 $server->process();
